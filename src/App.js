@@ -10,6 +10,7 @@ import API from './components/API';
 import Routing from './components/Routing';
 import FileInput from './components/FileInput';
 import Login from './components/Login';
+import SearchItems from './components/SearchItems';
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
       {/* <List /> */}
       {/* <Toggle /> */}
       {/* <API /> */}
-      <Routing />
+      {/* <Routing /> */}
       {/* <FileInput /> */}
       {/* <Login /> */}
+      <SearchItems />
     </div>
   );
 }
