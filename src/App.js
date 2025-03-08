@@ -11,6 +11,7 @@ import Routing from './components/Routing';
 import FileInput from './components/FileInput';
 import Login from './components/Login';
 import SearchItems from './components/SearchItems';
+import Color from './components/Color';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <Routing /> */}
       {/* <FileInput /> */}
       {/* <Login /> */}
-      <SearchItems />
+      {/* <SearchItems /> */}
+      <Color />
     </div>
   );
 }
