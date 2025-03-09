@@ -14,6 +14,7 @@ import SearchItems from './components/SearchItems';
 import Color from './components/Color';
 import { ThemeProvider } from './context/themeContext';
 import Theme from './components/Theme';
+import CounterWithReducer from './components/CounterWithReducer';
 
 function App() {
   return (
@@ -29,9 +30,10 @@ function App() {
       {/* <Login /> */}
       {/* <SearchItems /> */}
       {/* <Color /> */}
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <Theme />
-      </ThemeProvider>
+      </ThemeProvider> */}
+      <CounterWithReducer />
     </div>
   );
 }
