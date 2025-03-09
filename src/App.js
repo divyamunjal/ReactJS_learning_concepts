@@ -12,10 +12,12 @@ import FileInput from './components/FileInput';
 import Login from './components/Login';
 import SearchItems from './components/SearchItems';
 import Color from './components/Color';
+import { ThemeProvider } from './context/themeContext';
+import Theme from './components/Theme';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <HelloWorld /> */}
       {/* <Counter /> */}
       {/* <UserInput /> */}
@@ -26,7 +28,10 @@ function App() {
       {/* <FileInput /> */}
       {/* <Login /> */}
       {/* <SearchItems /> */}
-      <Color />
+      {/* <Color /> */}
+      <ThemeProvider>
+        <Theme />
+      </ThemeProvider>
     </div>
   );
 }
